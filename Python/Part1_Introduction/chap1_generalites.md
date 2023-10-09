@@ -416,3 +416,15 @@ transposed = [
 	[3,6,9]
 ]
 ```
+
+### 05 Exercice chaîne de caractères
+
+1. Calculez le nombre de i dans la chaîne de caractères suivantes à l'aide de script Python.
+
+2. Puis calculez le nombre de chaque lettres dans la chaîne de caractères.
+
+3. Faites une fonction pour donner le résultat de la question 2
+
+```python
+m = "mississippi" 
+```
