@@ -301,28 +301,7 @@ Ecrire une fonction qui prend deux listes de nombres de même longueur et multip
 
 ```python
 def mult(l, m):
-    # une lambda est une fonction anonyme qui permet d'écrire un test court dans un algo
-	"""
-		all vérifiera ici le type de chaque élément de la liste on accepte les listes de float que l'on castera si besoin
-		on pourra traiter des listes de la forme suivante, elles sont acceptées
-		l = [11, "3.6", 9.0]
-	"""
-    check = lambda l : type(l) in [list, tuple] and len(l) > 0 and all(type( float(x) ) == float for x in l)
-
-    assert check(l) and check(m) and len(l) == len(m)
-
-    s = 0
-	# la fonction zip de Python rassemble terme à terme des éléments d'une liste dans un tuple
-	# l = [1,2] et m = [3,4], on aura list(zip(l,m)) [(1,3), (2, 4)]
-
-    for vec in zip(l, m):
-        # unpacking pour assigner les valeurs par décomposition x, y = (1, 2) => x vaut 1 et y vaut 2
-        x, y = vec 
-		# Cas où les chaînes de caractères nous poseraient des pb
-        s += float(x)*float(y)
-    
-    return s
-
+    pass
 print( mult([1,2], [3, 4]) )
 ```
 
