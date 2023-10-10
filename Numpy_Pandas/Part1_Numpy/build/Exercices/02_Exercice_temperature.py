@@ -9,3 +9,7 @@ Toutes les températures supérieurs à 50 sont à changer, les remplacer par na
 
 """ 
 
+mask = t > 50
+t[mask] = np.nan
+
+print(t)
