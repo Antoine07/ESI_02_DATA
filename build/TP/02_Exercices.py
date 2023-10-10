@@ -1,3 +1,4 @@
+import numpy as np
 """
 1 Exercice minimum
 
@@ -17,6 +18,8 @@ a = np.array([
 
 # Résultat attendu une liste des minimaux et leur position sur chaque ligne
 minTabLine = [(0, 13), (0, 16), (0, 34), (0, 13), (2, 12), (4, 12)]
+
+print( a.min() )
 
 """
 2 Exercice éliminer les doublons
