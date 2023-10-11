@@ -234,3 +234,7 @@ Créez les DataFrames suivants :
 | 2019  |   309       |  290        |
 ------------------------------------
 ```
+
+3. Calculez le nombre de fruits totals dans les dataFrames. 
+
+4. Trouvez l'année pour laquelle il y a le plus de fruits.
