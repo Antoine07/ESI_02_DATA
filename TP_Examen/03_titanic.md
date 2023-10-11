@@ -12,7 +12,13 @@ Vous êtes responsable de la gestion des données pour une entreprise. Mettez en
 
 3. Déterminer si le port d'embarquemen a une influence sur la survie (calculer la répartiti  des morts et des survivants en fonction du port de départ)
 
-4. Déterminer la répartition par sexe et par âge des passagers du navire
+4. Déterminer la répartition par sexe et par âge (faites des tranches ) des passagers du navire.
+
+- 0 < 18
+
+- 18 - 59
+
+- 60 ...
 
 5. Conclusion, écrire un document qui vous présentera votre analyse lors de la soutenance.
 
