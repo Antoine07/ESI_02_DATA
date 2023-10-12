@@ -52,3 +52,16 @@ groupCityM = dfCity.groupby(by=['city', 'gender'])
 
 print( groupCityF[['num_pet']].sum())
 # print( groupCityM['num_pet'].sum().idxmax() )
+
+# Pivot 
+# dfPivot = dfCity.pivot(index='gender', columns='city', values='num_pet')
+
+df = dfCity.groupby(['city', 'gender'])['num_pet'].sum().unstack().idxmax()
+
+print(df)
+
+print("--------------------")
+
+pivot_df = dfCity.pivot_table(index='city', columns='gender', values='num_pet', aggfunc='sum')
+
+print(pivot_df)
