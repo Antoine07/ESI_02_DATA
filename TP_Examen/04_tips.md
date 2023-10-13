@@ -2,7 +2,7 @@
 
 Vous allez travailler avec un jeu de données : **tips**, pourboires dans un restaurant.
 
-Récupérez la source à l'adresse suivante : [tips](https://github.com/pandas-dev/pandas/blob/master/doc/data/tips.csv)
+Récupérez la source à l'adresse suivante : dans le dossier du TP
 
 Vous enregistrerez ce fichier à la racine de vos fichiers pythons, puis :
 
